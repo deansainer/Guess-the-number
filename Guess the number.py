@@ -1,8 +1,8 @@
-import random
+from random import randint
 
 while True:
     count = 0
-    randnum = random.randint(1, 5)
+    randnum = randint(1, 5)
     mynum = int(input('-----------------------------\nPlease type your number (1-5): '))
     count += 1
     amiwinner = False
